@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.card {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height:  1400px;
+  width: 800px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  border-radius: 50px;
+  background-color: grey;
+}
+body{
+  background-color: transparent;
+  font-family: 'Luengo-Bold', sans-serif;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+iframe{
+  width: 100%;
+  height: 100%;
+}
